@@ -1,3 +1,3 @@
-# Skibidi Cash
+# Skibidi Cash v2 Designer Pack
 
-Welcome to the designer documentation hub.
+All design files, docs, and guides included.
