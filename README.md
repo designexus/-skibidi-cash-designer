@@ -1,87 +1,129 @@
-# Skibidi Brand Assets
+Skɩbɩdɩ Cash
 
-This repository contains code versions of Skibidi brand assets optimized for web use.
+> 🚀 A meme-coded, Gen Z-focused Bitcoin wallet powered by Lightning, Cashu, and Liquid USDT.
 
-## Assets Included
 
-1. **Skibidi 3D Logo** - A 3D logo with metallic effects and Bitcoin symbol
-   - Implementation: CSS/HTML with 3D effects
-   - Files: `/css/skibidi_3d_logo.css` and `/html/skibidi_3d_logo.html`
 
-2. **Skibidi 2D Vector Logo** - A flat vector version of the logo
-   - Implementation: SVG
-   - File: `/svg/skibidi_2d_vector_logo.svg`
+Skɩbɩdɩ Cash is a non-custodial Bitcoin wallet crafted for speed, sovereignty, and style. Designed at the intersection of meme culture and next-gen finance, it offers a blazing, irreverent onboarding experience for the next wave of Bitcoiners.
 
-3. **Skibidi Text Logo** - Black and white text logo
-   - Implementation: SVG
-   - File: `/svg/skibidi_text_bw.svg`
 
-## Usage Instructions
+---
 
-### SVG Assets
+✨ Key Features
 
-SVG assets can be used directly in your HTML:
+Layer	Tech Stack	Purpose
 
-```html
-<!-- Using the 2D vector logo -->
-<img src="svg/skibidi_2d_vector_logo.svg" alt="Skibidi Logo">
+On-Chain	Bitcoin (BDK)	Secure UTXO management
+Lightning	LDK	Fast, scalable BTC payments
+Ecash	Cashu	Anonymous token-based payments
+Token Support	Liquid USDT (via L-BTC)	Stable asset support
+Frontend Framework	Tailwind CSS, Docsify, HTML	Brutalist, meme-aligned UI/UX
+Deployment	Netlify	Continuous deployment & preview
 
-<!-- Using the text logo -->
-<img src="svg/skibidi_text_bw.svg" alt="Skibidi Text">
-```
 
-Or embedded inline for more control:
 
-```html
-<!-- Embedding SVG directly -->
-<object type="image/svg+xml" data="svg/skibidi_2d_vector_logo.svg">
-  Your browser does not support SVG
-</object>
-```
+---
 
-### 3D CSS Logo
+🌟 Design Philosophy
 
-To use the 3D CSS logo:
+Skɩbɩdɩ Cash is:
 
-1. Include the CSS file in your HTML:
-```html
-<link rel="stylesheet" href="css/skibidi_3d_logo.css">
-```
+Visual-First: Built around dynamic visual identity and a punchy brand tone
 
-2. Add the HTML structure:
-```html
-<div class="skibidi-3d-container">
-  <div class="skibidi-3d-logo">
-    <div class="skibidi-3d-background"></div>
-    <div class="skibidi-3d-letter"></div>
-    <div class="skibidi-3d-lightning"></div>
-    <div class="skibidi-3d-bitcoin"></div>
+Gen Z Native: Embraces meme formats, emoji glyphs, and brutalist layouts
+
+Bitcoin Sovereign: We prioritize open, peer-to-peer protocols with no middlemen
+
+Designer-Led: Clean, modern aesthetics powered by Tailwind and SVG/CSS effects
+
+
+
+---
+
+📁 Project Structure
+
+/ ─ Root
+├── /docs              # Mobile + landing documentation (Docsify)
+├── /web               # Landing site (HTML + Tailwind)
+├── /assets            # Brand icons, logos, SVGs
+├── /svg               # Vector logos
+├── /css               # 3D + animated logos
+├── /mobile            # App documentation & structure
+└── netlify.toml       # Deploy settings
+
+
+---
+
+🏠 Landing Page Sample
+
+<header class="bg-black text-white py-20 text-center">
+  <h1 class="text-5xl font-bold tracking-tight">Skɩbɩdɩ Cash</h1>
+  <p class="mt-4 text-lg text-gray-400">The meme wallet that slaps. Lightning-fast, sovereign, non-custodial.</p>
+  <a href="#docs" class="mt-6 inline-block px-6 py-3 bg-orange-500 text-white rounded-xl">Enter the Meme Matrix</a>
+</header>
+
+> Customize text & assets dynamically from /assets
+
+
+
+
+---
+
+💼 Branding Assets
+
+Asset Type	Path	Description
+
+3D Logo	css/skibidi_3d_logo.css/html	Hero & header usage
+2D Vector Logo	svg/skibidi_2d_vector_logo.svg	Web + social embeds
+Text Logo	svg/skibidi_text_bw.svg	Mobile & footer usage
+
+
+
+---
+
+ Footer Design
+
+<footer class="bg-black text-white py-6 text-center text-sm">
+  <div class="flex flex-col items-center space-y-2">
+    <span>
+      Made with 🤍 
+      <a href="https://bitcoindesign.org" target="_blank" class="underline hover:text-orange-400">
+        Bitcoin Design Community
+      </a>
+    </span>
+    <div class="flex items-center space-x-2">
+      <img src="/assets/bitcoindesign-logo.svg" alt="Bitcoin Design Logo" class="h-6" />
+      <span class="text-xs text-gray-400">@designexus</span>
+    </div>
   </div>
-</div>
-```
+</footer>
 
-## Customization
 
-### SVG Customization
+---
 
-SVG files can be customized by editing the SVG code directly:
-- Change colors by modifying the fill attributes or gradient definitions
-- Adjust sizes by changing the viewBox or width/height attributes
-- Add animations with CSS or SMIL
+🎯 Reviewer Highlights
 
-### 3D CSS Logo Customization
+Focus Area	Description
 
-The 3D CSS logo can be customized by modifying the CSS variables:
-- Change colors in the gradient definitions
-- Adjust 3D depth by modifying transform values
-- Change hover effects by editing the transition properties
+Design Ethos	Brutalist, meme-native, Gen Z aesthetic
+Protocol Sophistication	Bitcoin-native stack: BDK, LDK, Cashu, and Liquid
+User Target	Non-custodial newcomers, meme community, Bitcoin-curious
+DevOps Pipeline	GitHub > Netlify > Auto preview & Docsify docs
+Brand Integrity	Modular SVG/CSS assets for modern web/app integration
 
-## Browser Compatibility
 
-- SVG assets are compatible with all modern browsers
-- The 3D CSS implementation works best in Chrome, Firefox, Safari, and Edge
-- For older browsers, consider using the 2D SVG version as a fallback
 
-## License
+---
 
-These assets are provided for demonstration purposes only.
+📖 License
+
+This project is licensed under the MIT License. Visual and branding assets are open for educational and experimental use within the community.
+
+
+---
+
+ Made with 🤍
+
+ @designexus 
+Bitcoin Design Community ✨
+
