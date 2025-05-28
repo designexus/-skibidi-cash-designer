@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skibidi Brand Assets Demo</title>
+    <link rel="stylesheet" href="../css/skibidi_3d_logo.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        h1, h2 {
+            color: #5e35b1;
+        }
+        
+        .demo-section {
+            margin: 40px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .asset-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        
+        .asset-item {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .asset-item img {
+            max-width: 300px;
+            max-height: 300px;
+        }
+        
+        .code-example {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Skibidi Brand Assets Demo</h1>
+    
+    <div class="demo-section">
+        <h2>SVG Text Logo</h2>
+        <div class="asset-container">
+            <div class="asset-item">
+                <img src="../svg/skibidi_text_bw.svg" alt="Skibidi Text Logo">
+                <p>Black and White Text Logo (SVG)</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="demo-section">
+        <h2>2D Vector Logo</h2>
+        <div class="asset-container">
+            <div class="asset-item">
+                <img src="../svg/skibidi_2d_vector_logo.svg" alt="Skibidi 2D Vector Logo">
+                <p>2D Vector Logo (SVG)</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="demo-section">
+        <h2>3D CSS Logo</h2>
+        <div class="asset-container">
+            <div class="asset-item">
+                <div class="skibidi-3d-container">
+                    <div class="skibidi-3d-logo">
+                        <div class="skibidi-3d-background"></div>
+                        <div class="skibidi-3d-letter"></div>
+                        <div class="skibidi-3d-lightning"></div>
+                        <div class="skibidi-3d-bitcoin"></div>
+                    </div>
+                </div>
+                <p>3D Logo (CSS/HTML)</p>
+                <p><em>Hover over the logo to see animation effect</em></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
