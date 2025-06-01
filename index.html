@@ -1,125 +1,25 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-white text-gray-900">
+<html>
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Skıbıdı Cαsh - Meme Wallet</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    @keyframes float {
-      0% { transform: translateY(0);}
-      50% { transform: translateY(-18px);}
-      100% { transform: translateY(0);}
-    }
-    .float {
-      animation: float 3s ease-in-out infinite;
-    }
-    /* Fade-in animation */
-    @keyframes fadeInUp {
-      0% { opacity: 0; transform: translateY(32px);}
-      100% { opacity: 1; transform: translateY(0);}
-    }
-    .animate-fadeInUp {
-      animation: fadeInUp 1s cubic-bezier(.4,0,.2,1) both;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
 </head>
-<body class="bg-white text-gray-900 font-sans min-h-screen flex flex-col">
-  <!-- Header -->
-  <header class="flex justify-between items-center px-6 py-4 border-b border-gray-200 bg-white shadow-sm">
-    <div class="flex items-center space-x-3">
-      <img src="/assets/logo/skibidi-btc.svg" alt="Skıbıdı Logo" class="h-10 w-10"/>
-      <span class="text-2xl font-extrabold tracking-tight">Skıbıdı Cαsh</span>
-    </div>
-    <a href="#get-started" class="bg-yellow-400 text-gray-900 px-4 py-2 rounded hover:bg-yellow-500 font-bold shadow transition">Get Skibidi</a>
-  </header>
 
-  <!-- HERO SECTION -->
-  <section class="text-center px-6 py-16 md:py-24 bg-gradient-to-b from-yellow-50 to-white animate-fadeInUp">
-    <div class="max-w-2xl mx-auto">
-      <h1 class="text-4xl md:text-6xl font-extrabold mb-4 text-yellow-500">Bitcoin. Memes. Chaos.</h1>
-      <p class="max-w-xl mx-auto text-gray-600 mb-8 text-lg md:text-2xl font-medium">
-        Skıbıdı Cαsh is the meme-powered, non-custodial wallet Gen Z has been waiting for.<br>
-        <span class="text-gray-800">Lightning. Cashu. Liquid USDT. Anonymous, chaotic, and open source.</span>
-      </p>
-      <a href="#get-started" class="bg-gray-900 text-yellow-400 px-8 py-4 rounded-full text-lg font-bold shadow hover:bg-yellow-500 hover:text-gray-900 transition animate-pulse">
-        Orange Pill Me Now ⚡
-      </a>
-    </div>
-    <!-- Animated Emojis -->
-    <div class="absolute left-6 top-8 md:left-24 md:top-20 animate-bounce text-4xl select-none">🤣</div>
-    <div class="absolute right-6 bottom-12 md:right-24 md:bottom-24 animate-bounce text-4xl select-none">🚀</div>
-    <!-- Mobile Mockup -->
-    <div class="flex justify-center mt-14">
-      <div class="relative float">
-        <!-- Phone Frame SVG (edit href to your actual logo or UI showcase) -->
-        <svg width="220" height="440" viewBox="0 0 220 440" fill="none" xmlns="http://www.w3.org/2000/svg" class="drop-shadow-xl">
-          <rect x="10" y="10" width="200" height="420" rx="40" fill="#f4f4f5" stroke="#fbbf24" stroke-width="8"/>
-          <!-- Placeholder for app screen -->
-          <rect x="32" y="50" width="156" height="320" rx="24" fill="#fff"/>
-          <!-- App logo or meme on the "screen" -->
-          <image x="62" y="120" width="96" height="96" href="/assets/logo/skibidi-btc.svg"/>
-          <text x="110" y="250" text-anchor="middle" fill="#18181b" font-size="18" font-weight="bold">Skıbıdı App</text>
-          <text x="110" y="275" text-anchor="middle" fill="#fbbf24" font-size="14">Meme Mode</text>
-        </svg>
-        <!-- Animated sparkles -->
-        <div class="absolute left-0 top-0 text-2xl animate-bounce">✨</div>
-        <div class="absolute right-0 bottom-0 text-2xl animate-pulse">💸</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FEATURES -->
-  <section class="px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-    <div class="bg-yellow-50 p-6 rounded-xl border border-yellow-200 shadow animate-fadeInUp">
-      <h3 class="text-xl font-bold mb-2 text-yellow-500">Non-Custodial</h3>
-      <p class="text-gray-600">Your keys. Your chaos. 100% self-sovereign wallet using BDK/LDK stack.</p>
-    </div>
-    <div class="bg-yellow-50 p-6 rounded-xl border border-yellow-200 shadow animate-fadeInUp delay-100">
-      <h3 class="text-xl font-bold mb-2 text-yellow-500">Meme Core</h3>
-      <p class="text-gray-600">UI that slaps. Emojis, sound FX, chaos-mode screens. It’s art. It’s money. It’s fun.</p>
-    </div>
-    <div class="bg-yellow-50 p-6 rounded-xl border border-yellow-200 shadow animate-fadeInUp delay-200">
-      <h3 class="text-xl font-bold mb-2 text-yellow-500">Privacy First</h3>
-      <p class="text-gray-600">Integrates Cashu and Liquid. No KYC, no tracking. Just vibes.</p>
-    </div>
-  </section>
-
-  <!-- SOCIAL / COMMUNITY -->
-  <div class="flex justify-center space-x-8 my-8">
-    <a href="https://t.me/skibidicash" target="_blank" aria-label="Telegram">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg" class="h-8 w-8 hover:scale-110 transition" alt="Telegram"/>
-    </a>
-    <a href="https://twitter.com/skibidicash" target="_blank" aria-label="Twitter">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" class="h-8 w-8 hover:scale-110 transition" alt="Twitter/X"/>
-    </a>
-  </div>
-
-  <!-- GET STARTED ANCHOR -->
-  <section id="get-started" class="px-6 py-16 bg-gradient-to-t from-yellow-50 to-white text-center animate-fadeInUp">
-    <h2 class="text-3xl font-extrabold mb-4 text-yellow-500">Ready to Skibidi?</h2>
-    <p class="mb-6 text-lg text-gray-700">Join the meme movement and experience the future of playful, private Bitcoin wallets.<br>
-      <span class="font-bold text-gray-900">No KYC. No limits. Just memes.</span>
-    </p>
-    <a href="https://t.me/skibidicash" target="_blank" class="bg-yellow-400 text-gray-900 px-8 py-4 rounded-full text-lg font-bold shadow hover:bg-yellow-500 transition animate-pulse">
-      Join Community 🚀
-    </a>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="bg-white text-gray-600 py-8 text-center text-sm border-t border-gray-100 mt-auto">
-    <div class="flex flex-col items-center space-y-2">
-      <span>
-        Made with <span class="text-yellow-500">❤️</span> by the
-        <a href="https://bitcoindesign.org" target="_blank" class="underline hover:text-yellow-500">
-          Bitcoin Design Community
-        </a>
-      </span>
-      <div class="flex items-center space-x-2">
-        <img src="/assets/logo/bitcoin-design.svg" alt="Bitcoin Design Logo" class="h-6" />
-        <span class="text-xs text-gray-400">@designexus</span>
-      </div>
-    </div>
-  </footer>
+<body><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skibidi.cash</title>
+  </head>
+  <body class="bg-background text-white font-display">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+  
 </body>
+
 </html>
